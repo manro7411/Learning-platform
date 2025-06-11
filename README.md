@@ -1,9 +1,5 @@
-Absolutely! Here is the **project setup** guide in English for a basic Full Stack Learning Platform project using **React + TypeScript (frontend)** and **Node.js/Express + TypeScript (backend)**.
-This structure is great for beginners, internships, or anyone wanting a simple, scalable stack.
 
----
-
-## **1. Create the main project folder**
+## 1. Create the main project folder
 
 ```bash
 mkdir my-learning-platform
@@ -12,7 +8,7 @@ cd my-learning-platform
 
 ---
 
-## **2. Set up the Frontend (React + TypeScript + Vite)**
+## 2. Set up the Frontend (React + TypeScript + Vite)
 
 ```bash
 npm create vite@latest frontend -- --template react-ts
@@ -23,7 +19,7 @@ cd ..
 
 ---
 
-## **3. Set up the Backend (Node.js + Express + TypeScript)**
+## 3. Set up the Backend (Node.js + Express + TypeScript)
 
 ```bash
 mkdir backend
@@ -34,7 +30,7 @@ npm install --save-dev typescript ts-node-dev @types/node @types/express
 npx tsc --init
 ```
 
-* Create a file `src/index.ts` for backend code:
+Create a file `src/index.ts` for backend code:
 
 ```ts
 // backend/src/index.ts
@@ -55,7 +51,7 @@ app.listen(PORT, () => {
 });
 ```
 
-* Add this to `package.json` in your backend:
+Add this to `package.json` in your backend:
 
 ```json
 "scripts": {
@@ -111,7 +107,7 @@ my-learning-platform/
 
 ---
 
-## 6. How to Run the Project**
+## 6. How to Run the Project
 
 Open 2 terminals:
 
@@ -129,7 +125,7 @@ Backend: Create `.env` for `SECRET`, `DB_URL`, etc.
 
 ---
 
-### If you want to add auth, a database, or more features, just let me know!**
+### If you want to add auth, a database, or more features, just let me know!
 
 For example: MongoDB/Firebase integration, more routes, login/quiz pages, etc.
 
